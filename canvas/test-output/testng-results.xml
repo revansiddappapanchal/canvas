@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[Teststarted]]>
+    </line>
+    <line>
+      <![CDATA[LoginPageis Displayed,PASS]]>
+    </line>
+    <line>
+      <![CDATA[verifyoperationTestmethod STARTED]]>
+    </line>
+    <line>
+      <![CDATA[Home Pageis Displayed,PASS]]>
+    </line>
+    <line>
+      <![CDATA[NewCampaignTitleis Displayed,PASS]]>
+    </line>
+    <line>
+      <![CDATA[Create Page Titleis Displayed,PASS]]>
+    </line>
+    <line>
+      <![CDATA[our campaign is created]]>
+    </line>
+    <line>
+      <![CDATA[verifyoperationTestmethod PASSED]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2021-05-29T01:37:47 IST" name="Suite" finished-at="2021-05-29T01:38:00 IST" duration-ms="13241">
+    <groups>
+    </groups>
+    <test started-at="2021-05-29T01:37:47 IST" name="Test" finished-at="2021-05-29T01:38:00 IST" duration-ms="13241">
+      <class name="com.canvas.loginVerify.verifyCampaignCreation">
+        <test-method is-config="true" signature="openBrowser()[pri:0, instance:com.canvas.loginVerify.verifyCampaignCreation@5d0bf09b]" started-at="2021-05-29T01:37:47 IST" name="openBrowser" finished-at="2021-05-29T01:37:51 IST" duration-ms="3926" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[LoginPageis Displayed,PASS]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method signature="verifyoperationTest()[pri:0, instance:com.canvas.loginVerify.verifyCampaignCreation@5d0bf09b]" started-at="2021-05-29T01:37:51 IST" name="verifyoperationTest" finished-at="2021-05-29T01:38:00 IST" duration-ms="9266" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[verifyoperationTestmethod STARTED]]>
+            </line>
+            <line>
+              <![CDATA[Home Pageis Displayed,PASS]]>
+            </line>
+            <line>
+              <![CDATA[NewCampaignTitleis Displayed,PASS]]>
+            </line>
+            <line>
+              <![CDATA[Create Page Titleis Displayed,PASS]]>
+            </line>
+            <line>
+              <![CDATA[our campaign is created]]>
+            </line>
+            <line>
+              <![CDATA[verifyoperationTestmethod PASSED]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyoperationTest -->
+      </class> <!-- com.canvas.loginVerify.verifyCampaignCreation -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
